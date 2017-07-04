@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Container renders and matches snapshot 1`] = `
+<div
+  className="SearchContainer"
+>
+  <input
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+  <button
+    onClick={[Function]}
+  >
+    Search
+  </button>
+</div>
+`;

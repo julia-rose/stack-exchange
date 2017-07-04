@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Results Container renders and matches snapshot 1`] = `
+<div>
+  <h1>
+    Results
+  </h1>
+  <ul />
+</div>
+`;
