@@ -27,7 +27,7 @@ class SearchContainer extends Component {
           onChange={this.handleUpdate}
           value={this.state.searchTerm}
         />
-        <button onClick={this.handleSearch}>Add</button>
+        <button onClick={this.handleSearch}>Search</button>
       </div>
     );
   }
