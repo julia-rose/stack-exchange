@@ -1,19 +1,20 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import renderer from 'react-test-renderer';
-import App from './App';
+import axios from 'axios';
+import SearchContainer from './index';
 
-it('renders without crashing', () => {
+describe('Search Container', () => {
+  const mockSetSearchTerm = jest.fn();
   const component = shallow(
-    <App />
+    <SearchContainer setNewSearchTerm={mockSetSearchTerm} />
   );
 
   it('renders and matches snapshot', () => {
     const component = renderer.create(
-      <App />
+      <SearchContainer />
     );
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
   });
-
 });

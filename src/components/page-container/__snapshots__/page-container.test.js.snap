@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page Container renders and matches snapshot 1`] = `
+<div
+  className="page-container"
+>
+  <h2
+    className="page-container__intro"
+  >
+    Confused? Overwhelmed? Utterly bewildered?
+  </h2>
+  <h1
+    className="page-container__title"
+  >
+    Search Stack Overflow!
+  </h1>
+  <div
+    className="search-container"
+  >
+    <div
+      className="radio-buttons"
+    >
+      <label
+        className="option-phrase"
+      >
+        <input
+          checked={true}
+          onChange={[Function]}
+          type="radio"
+          value="phrase"
+        />
+        Search by phrase
+      </label>
+      <label
+        className="option-tag"
+      >
+        <input
+          checked={false}
+          onChange={[Function]}
+          type="radio"
+          value="tag"
+        />
+        Search by tag
+      </label>
+    </div>
+    <div
+      className="input-container"
+    >
+      <input
+        className="search-input"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <button
+        className="search-button"
+        onClick={[Function]}
+      >
+        Search
+      </button>
+    </div>
+  </div>
+</div>
+`;
