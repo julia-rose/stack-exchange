@@ -1,7 +1,18 @@
 .search-container {
+	margin: 50px 25px 0 25px;
+}
+
+.radio-buttons {
+	margin: 20px 0;
+}
+
+.option-tag {
+	margin-left: 20px;
+}
+
+.input-container {
 	display: flex;
 	justify-content: center;
-	margin: 50px 25px 0 25px;
 }
 
 .search-input {

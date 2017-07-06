@@ -6,14 +6,14 @@
   overflow: scroll;
 }
 
-.page-container__title {
+.page-container__intro {
   margin: 20px;
   color: #216d5f;
   text-align: center;
   font-style: italic;
 }
 
-.page-container__subtitle {
+.page-container__title {
   color: #216d5f;
   text-align: center;
 }
