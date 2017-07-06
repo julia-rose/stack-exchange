@@ -11,11 +11,7 @@
 	padding: 0;
 }
 
-.result-item {
-	margin: 10px 0;
-}
-
-.result-link {
-	color: #216d5f;
-	text-decoration: none;
+.empty-search-term {
+  color: #216d5f;
+  font-style: italic;
 }
