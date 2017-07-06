@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import './results-container.css';
 
 class ResultsContainer extends Component {
 	constructor(props) {
@@ -29,12 +30,14 @@ class ResultsContainer extends Component {
 
   render() {
     return (
-      <div>
-        <h1>Results</h1>
-        <ul>
+      <div className="results-container">
+        <h1 className="results-title">Results</h1>
+        <ul className="results-list">
           {this.state.results.map(result =>
-            <li key={result.question_id}>
-              <a href={result.link}>{result.title}</a>
+            <li className="result-item" key={result.question_id}>
+              <a className="result-link" href={result.link} target="_blank">
+                {result.title}
+              </a>
             </li>
           )}
         </ul>

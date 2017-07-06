@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import './add-greeter.css';
+import './search-container.css';
 
 class SearchContainer extends Component {
   constructor(props) {
@@ -21,13 +21,18 @@ class SearchContainer extends Component {
 
   render() {
     return (
-      <div className="SearchContainer">
+      <div className="search-container">
         <input
           type="text"
+          className="search-input"
           onChange={this.handleUpdate}
           value={this.state.searchTerm}
         />
-        <button onClick={this.handleSearch}>Search</button>
+        <button 
+          onClick={this.handleSearch}
+          className="search-button">
+            Search
+        </button>
       </div>
     );
   }

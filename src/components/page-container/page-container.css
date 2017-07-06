@@ -1,0 +1,19 @@
+.page-container {
+  height: calc(100vh - 60px);
+  width: calc(100vw - 60px);
+  margin: 25px;
+  border: 5px solid #3bf6d5;
+  overflow: scroll;
+}
+
+.page-container__title {
+  margin: 20px;
+  color: #216d5f;
+  text-align: center;
+  font-style: italic;
+}
+
+.page-container__subtitle {
+  color: #216d5f;
+  text-align: center;
+}

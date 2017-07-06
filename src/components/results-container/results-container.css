@@ -1,0 +1,21 @@
+.results-container {
+	margin: 0 25px;
+}
+
+.results-title {
+	color: #216d5f;
+}
+
+.results-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.result-item {
+	margin: 10px 0;
+}
+
+.result-link {
+	color: #216d5f;
+	text-decoration: none;
+}
