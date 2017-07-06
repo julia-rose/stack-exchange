@@ -19,7 +19,7 @@ class ResultItem extends Component {
   render() {
     const { data } = this.props;
     return(
-      <li className="result-item" key={data.question_id}>
+      <li className="result-item">
         <button
           className="result-title"
           onClick={this.handleClick}>

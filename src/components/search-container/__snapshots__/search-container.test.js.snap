@@ -2,17 +2,49 @@
 
 exports[`Search Container renders and matches snapshot 1`] = `
 <div
-  className="SearchContainer"
+  className="search-container"
 >
-  <input
-    onChange={[Function]}
-    type="text"
-    value=""
-  />
-  <button
-    onClick={[Function]}
+  <div
+    className="radio-buttons"
   >
-    Search
-  </button>
+    <label
+      className="option-phrase"
+    >
+      <input
+        checked={true}
+        onChange={[Function]}
+        type="radio"
+        value="phrase"
+      />
+      Search by phrase
+    </label>
+    <label
+      className="option-tag"
+    >
+      <input
+        checked={false}
+        onChange={[Function]}
+        type="radio"
+        value="tag"
+      />
+      Search by tag
+    </label>
+  </div>
+  <div
+    className="input-container"
+  >
+    <input
+      className="search-input"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <button
+      className="search-button"
+      onClick={[Function]}
+    >
+      Search
+    </button>
+  </div>
 </div>
 `;
